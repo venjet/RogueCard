@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\Visual\CardVisualScripts\BetterCardRotation.cs" />
      <Compile Include="Assets\Scripts\Visual\CardVisualScripts\OneCardManager.cs" />
      <Compile Include="Assets\Scripts\Visual\HoverPreview.cs" />
+     <Compile Include="Assets\Scripts\Visual\ManaPoolVisual.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/Project/RogueCard/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

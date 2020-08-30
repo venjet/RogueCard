@@ -1123,7 +1123,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1320450065
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &6688735702560350258
@@ -1332,7 +1332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6688735702657894130
 Transform:
   m_ObjectHideFlags: 0
@@ -2282,7 +2282,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 732481953
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &8920171020041378823
@@ -2373,7 +2373,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.6828163, y: 2.7923925, z: 0.01}
-  m_Center: {x: -0.010668993, y: 0.021337867, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1140717082
 MonoBehaviour:
   m_ObjectHideFlags: 0

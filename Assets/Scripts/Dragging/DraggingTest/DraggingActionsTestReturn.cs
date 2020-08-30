@@ -13,7 +13,7 @@ public class DraggingActionsTestReturn : DraggingActionsTest
 
     public override void OnEndDrag()
     {
-        transform.DOMove(savedPos, 0.3f).SetEase(Ease.InSine);
+        transform.DOMove(savedPos, 0.3f).SetEase(Ease.InQuad);
         //transform.DOMove(savedPos, 1f).SetEase(Ease.OutBounce, 0.5f, 0.1f);
         //transform.DOMove(savedPos, 1f).SetEase(Ease.OutQuint);//, 0.5f, 0.1f);
     }
