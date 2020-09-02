@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8b3e79935b2b943bda046536779423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardAsset: {fileID: 11400000, guid: 3db8372360ed4c64ab514183df1d0f52, type: 2}
+  cardAsset: {fileID: 11400000, guid: e618c1f3703a43947bf56c74d6180f83, type: 2}
   PreviewManager: {fileID: 8342538269869571254}
   NameText: {fileID: 579968276812666527}
   ManaCostText: {fileID: 579968277499212642}
