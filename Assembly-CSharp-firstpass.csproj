@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9255A44C-03C4-8BC0-DCB1-C03E41D35F37}</ProjectGuid>
+    <ProjectGuid>{BB088C89-F1B0-329B-F30A-E4917C64EF44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -53,34 +53,34 @@
      <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/RogueCardCour/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -266,7 +266,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>E:/RogueCardCour/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>E:/RogueCardLes/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
