@@ -33,7 +33,7 @@ public class CreatureLogic: ICharacter
         set
         {
             if (value > MaxHealth)
-                health = baseHealth;
+                health = MaxHealth;
             else if (value <= 0)
                 Die();
             else

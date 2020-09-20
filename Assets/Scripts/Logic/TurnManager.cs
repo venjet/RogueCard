@@ -105,6 +105,10 @@ public class TurnManager : MonoBehaviour {
             EndTurn();
     }
 
+    public void EndTurnTest(){
+        timer.StopTimer();
+        timer.StartTimer();
+    }
     public void EndTurn()
     {
         // stop timer
