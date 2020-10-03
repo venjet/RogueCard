@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+//教程中这个脚本是绑定在Cylinder上的，不过现在的Unity已经支持Capsule Collider 2D了，所以我直接绑在了父对象上。
 public class HeroPowerButton : MonoBehaviour {
 
     public AreaPosition owner;
