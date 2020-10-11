@@ -46,7 +46,7 @@ public class OneCardManager : MonoBehaviour {
     public void ReadCardFromAsset () {
         // universal actions for any Card
         // 1) apply tint
-        Debug.Log("#####ReadCardFromAsset");
+        //Debug.Log("#####ReadCardFromAsset");
         if (cardAsset.characterAsset != null) {
             CardBodyImage.color = cardAsset.characterAsset.ClassCardTint;
             CardFaceFrameImage.color = cardAsset.characterAsset.ClassCardTint;

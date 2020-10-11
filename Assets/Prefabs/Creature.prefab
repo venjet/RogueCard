@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385900333}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0400002, y: 1.84, z: -0.1}
+  m_LocalPosition: {x: -0.01, y: -0.03, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 542680063}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1320450065
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: 21300000, guid: 4715f6d6bddb4cd418846f163a6a0459, type: 3}
   m_Color: {r: 0.8867924, g: 0.12130654, b: 0.1985577, a: 1}
   m_FlipX: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   TurnThisOffWhenPreviewing: {fileID: 0}
   TargetPosition: {x: 0, y: 2, z: 0}
   TargetScale: 2
-  previewGameObject: {fileID: 0}
+  previewGameObject: {fileID: 614231367612237110}
   ActivateInAwake: 1
 --- !u!114 &385900336
 MonoBehaviour:
@@ -1338,8 +1338,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614231368033388009}
-  - component: {fileID: 8308262135474538805}
-  - component: {fileID: 38920785771133251}
   - component: {fileID: 1610431154}
   - component: {fileID: 787240056}
   - component: {fileID: 8109482210781143033}
@@ -1367,36 +1365,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &8308262135474538805
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614231368033388008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.6828163, y: 2.7923925, z: 0.01}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &38920785771133251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614231368033388008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 926e0f382d6f1774d9047c31bba15d46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TurnThisOffWhenPreviewing: {fileID: 614231367140488222}
-  TargetPosition: {x: 0, y: 2, z: 0}
-  TargetScale: 2
-  previewGameObject: {fileID: 614231367612237110}
-  ActivateInAwake: 1
 --- !u!114 &1610431154
 MonoBehaviour:
   m_ObjectHideFlags: 0

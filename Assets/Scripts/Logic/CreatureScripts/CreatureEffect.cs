@@ -13,9 +13,17 @@ public abstract class CreatureEffect
         this.owner = owner;
         this.specialAmount = specialAmount;
     }
+    // METHODS FOR SPECIAL FX THAT LISTEN TO EVENTS
+    public virtual void RegisterEventEffect(){}
 
-    public abstract void RegisterEffect();
+    public virtual void UnRegisterEventEffect(){}
 
-    public abstract void CauseEffect();
+    public virtual void CauseEventEffect(){}
+
+    // BATTLECRY
+    public virtual void WhenACreatureIsPlayed(){}
+
+    // DEATHRATTLE
+    public virtual void WhenACreatureDies(){}
 
 }

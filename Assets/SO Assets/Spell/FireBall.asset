@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: FireBall
   m_EditorClassIdentifier: 
   characterAsset: {fileID: 11400000, guid: f2aa34193adeaf3459e006e7f0aa5e5e, type: 2}
-  Description: "\u5BF9\u4E00\u4E2A\u5355\u4F4D\u9020\u62107\u70B9\u4F24\u5BB3\u3002"
+  Description: "\u5BF9\u4E00\u4E2A\u5355\u4F4D\u9020\u62106\u70B9\u4F24\u5BB3\u3002"
   CardImage: {fileID: 21300000, guid: 6c84c5362f3a794449d91113e48c64f4, type: 3}
-  ManaCost: 5
+  ManaCost: 4
   MaxHealth: 0
   Attack: 0
   AttacksForOneTurn: 1
@@ -23,6 +23,6 @@ MonoBehaviour:
   Charge: 0
   CreatureScriptName: 
   specialCreatureAmount: 0
-  SpellScriptName: 
-  specialSpellAmount: 7
-  Targets: 1
+  SpellScriptName: DealDamageToTarget
+  specialSpellAmount: 6
+  Targets: 4

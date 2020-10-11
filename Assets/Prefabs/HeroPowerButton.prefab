@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c895d4c39edec5646a5fb8278e87aeb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  owner: 1
+  owner: 0
   Front: {fileID: 3314077644729724747}
   Back: {fileID: 3314077646095846646}
   Glow: {fileID: 1016047750303638126}

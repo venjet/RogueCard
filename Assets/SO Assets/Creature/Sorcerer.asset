@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: 
   CardImage: {fileID: -2611018762325444292, guid: 75181dd3f9512394a91cbcadf23ac923,
     type: 3}
-  ManaCost: 1
+  ManaCost: 0
   MaxHealth: 1
   Attack: 1
   AttacksForOneTurn: 1

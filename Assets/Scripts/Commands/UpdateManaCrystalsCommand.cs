@@ -15,7 +15,7 @@ public class UpdateManaCrystalsCommand : Command {
     }
 
     public override void StartCommandExecution()
-    {
+    {   
         p.PArea.ManaBar.TotalCrystals = TotalMana;
         p.PArea.ManaBar.AvailableCrystals = AvailableMana;
         CommandExecutionComplete();

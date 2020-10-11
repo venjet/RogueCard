@@ -51,14 +51,11 @@ public class DamageEffect : MonoBehaviour {
     /// </summary>
     /// <param name="position">Position.</param>
     /// <param name="amount">Amount.</param>
-   
+    
     public static void CreateDamageEffect(Vector3 position, int amount)
-    {
-        // Instantiate a DamageEffect from prefab
-        GameObject newDamageEffect = new GameObject();
-        //TODO :  GameObject newDamageEffect = GameObject.Instantiate(GlobalSettings.Instance.DamageEffectPrefab, position, Quaternion.identity) as GameObject;
+    { 
         // Get DamageEffect component in this new game object
-        newDamageEffect = GameObject.Instantiate(DamageEffectTest.Instance.DamagePrefab,position, Quaternion.identity) as GameObject;
+        GameObject newDamageEffect = GameObject.Instantiate(GlobalSettings.Instance.DamageEffectPrefab, position, Quaternion.identity) as GameObject;
         DamageEffect de = newDamageEffect.GetComponent<DamageEffect>();
         // Change the amount text to reflect the amount of damage dealt
         de.AmountText.text = "-"+amount.ToString();

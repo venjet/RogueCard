@@ -39,21 +39,16 @@ public class PlayerPortraitVisual : MonoBehaviour {
     {
         if (amount > 0)
         {
-            //TODO : DamageEffect.CreateDamageEffect(transform.position, amount);
+            DamageEffect.CreateDamageEffect(transform.position, amount);
             HealthText.text = healthAfter.ToString();
         }
     }
 
     public void Explode()
-    {
-        /*TODO :
+    {        
         Instantiate(GlobalSettings.Instance.ExplosionPrefab, transform.position, Quaternion.identity);
         Sequence s = DOTween.Sequence();
         s.PrependInterval(2f);
-        s.OnComplete(() => GlobalSettings.Instance.GameOverCanvas.SetActive(true));
-        */
+        s.OnComplete(() => GlobalSettings.Instance.GameOverPanel.SetActive(true));        
     }
-
-
-
 }

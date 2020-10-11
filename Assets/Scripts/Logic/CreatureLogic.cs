@@ -81,7 +81,7 @@ public class CreatureLogic: ICharacter
         if (ca.CreatureScriptName!= null && ca.CreatureScriptName!= "")
         {
             effect = System.Activator.CreateInstance(System.Type.GetType(ca.CreatureScriptName), new System.Object[]{owner, this, ca.specialCreatureAmount}) as CreatureEffect;
-            effect.RegisterEffect();
+            effect.RegisterEventEffect();
         }
         CreaturesCreatedThisGame.Add(UniqueCreatureID, this);
     }
@@ -94,6 +94,13 @@ public class CreatureLogic: ICharacter
     public void Die()
     {   
         owner.table.CreaturesOnTable.Remove(this);
+
+        if(effect!=null){
+            effect.WhenACreatureDies();
+            effect.UnRegisterEventEffect();
+            effect = null;
+        }
+        
 
         new CreatureDieCommand(UniqueCreatureID, owner).AddToQueue();
     }

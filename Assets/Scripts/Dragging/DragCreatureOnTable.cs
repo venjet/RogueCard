@@ -13,7 +13,7 @@ public class DragCreatureOnTable : DraggingActions {
     public override bool CanDrag
     {
         get
-        { 
+        {      
             // TODO : include full field check
             return base.CanDrag && manager.CanBePlayedNow;
         }

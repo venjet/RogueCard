@@ -11,6 +11,8 @@ public class TurnManager : MonoBehaviour {
     // for Singleton Pattern
     public static TurnManager Instance;
 
+    public CardAsset CoinCard;
+
     private Player _whoseTurn;
     public Player whoseTurn
     {
@@ -58,14 +60,14 @@ public class TurnManager : MonoBehaviour {
         CreatureLogic.CreaturesCreatedThisGame.Clear();
 
         foreach (Player p in Player.Players)
-        {
+        {            
             p.ManaThisTurn = 0;
             p.ManaLeft = 0;
             p.LoadCharacterInfoFromAsset();
             p.TransmitInfoAboutPlayerToVisual();
             p.PArea.PDeck.CardsInDeck = p.deck.cards.Count;
             // move both portraits to the center
-            p.PArea.Portrait.transform.position = p.PArea.handVisual.OtherCardDrawSourceTransform.position;
+            p.PArea.Portrait.transform.position = p.PArea.InitPortraitPosition.position;
         }
 
         Sequence s = DOTween.Sequence();
@@ -81,7 +83,7 @@ public class TurnManager : MonoBehaviour {
                 // Debug.Log(whoGoesFirst);
                 Player whoGoesSecond = whoGoesFirst.otherPlayer;
                 // Debug.Log(whoGoesSecond);
-         
+
                 // draw 4 cards for first player and 5 for second player
                 int initDraw = 4;
                 for (int i = 0; i < initDraw; i++)

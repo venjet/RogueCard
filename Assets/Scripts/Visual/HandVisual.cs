@@ -145,6 +145,7 @@ public class HandVisual : MonoBehaviour
         WhereIsTheCardOrCreature w = card.GetComponent<WhereIsTheCardOrCreature>();
         w.BringToFront();
         w.Slot = 0; 
+        w.VisualState = VisualStates.Transition;
 
         // pass a unique ID to this card.
         IDHolder id = card.AddComponent<IDHolder>();
@@ -158,8 +159,8 @@ public class HandVisual : MonoBehaviour
             s.Append(card.transform.DOMove(DrawPreviewSpot.position, GlobalSettings.Instance.CardTransitionTime));
             if (TakeCardsOpenly)
                 s.Insert(0f, card.transform.DORotate(Vector3.zero, GlobalSettings.Instance.CardTransitionTime)); 
-            else 
-                s.Insert(0f, card.transform.DORotate(new Vector3(0f, 179f, 0f), GlobalSettings.Instance.CardTransitionTime)); 
+            //else 
+                //s.Insert(0f, card.transform.DORotate(new Vector3(0f, -179f, 0f), GlobalSettings.Instance.CardTransitionTime)); 
             s.AppendInterval(GlobalSettings.Instance.CardPreviewTime);
             // displace the card so that we can select it in the scene easier.
             s.Append(card.transform.DOLocalMove(slots.Children[0].transform.localPosition, GlobalSettings.Instance.CardTransitionTime));

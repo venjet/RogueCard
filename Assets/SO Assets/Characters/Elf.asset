@@ -15,7 +15,7 @@ MonoBehaviour:
   Class: 0
   ClassName: Elf
   MaxHealth: 30
-  HeroPowerName: 
+  HeroPowerName: HeroPower2Face
   AvatarImage: {fileID: 21300000, guid: 0d9db34043e3134459038c7a4a622213, type: 3}
   HeroPowerIconImage: {fileID: -415446080585258355, guid: a1430b12524793e408d8780736847bca,
     type: 3}
